@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/remind")
+@RequestMapping("/reminder")
 public class ReminderControler {
 
     @RequestMapping(value = "/get" ,method = RequestMethod.GET)
